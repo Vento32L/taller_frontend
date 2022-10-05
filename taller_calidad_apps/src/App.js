@@ -1,4 +1,3 @@
-//import Content  from '../src/components/content'
 import logo from './logo.svg';
 import './App.css';
 
