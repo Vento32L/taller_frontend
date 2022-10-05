@@ -24,6 +24,14 @@
   color: white;
 }
 
+.App-content {
+  padding: 0 5px 0 5px;
+}
+
+.App-footer {
+  padding: 0 5px 0 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
