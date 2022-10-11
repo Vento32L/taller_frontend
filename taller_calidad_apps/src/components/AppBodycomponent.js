@@ -4,7 +4,8 @@ import React, {Component} from "react";
 class AppBodyComponent extends Component{
     render(){
         return(
-            <div
+            <body>
+                <div
                 style={{
                     backgroundColor: "rgb(229, 236, 236)",
                     height: "400px",
@@ -54,6 +55,10 @@ class AppBodyComponent extends Component{
                     </div>
 
             </div>
-        )
+            </body>
+            
+        );
     }
 }
+
+export default AppBodyComponent;
