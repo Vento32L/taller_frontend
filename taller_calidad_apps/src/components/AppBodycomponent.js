@@ -81,33 +81,7 @@ class AppBodyComponent extends Component {
                         
                 /> 
                     
-                </figure>
-            </div>
-            <br></br>
-            <table style={{
-                    width: "600px",
-                    border: "1px solid #000",
-                    backgroundColor: "#fff",
-                    margin: "auto",
-                    marginTop: "60px"
-
-                }}>
-                    <thead>
-                        <tr>
-                            <th style={{
-                                height: "45px",
-                                borderBottom: "1px dashed #ccc",
-                                textAlign:"center"
-                                }}>
-                                 <a  href="https://www.lokosom.com.br/" 
-                                 target="enlace">Ver página similar</a>   
-                            </th>
-                        </tr>
-                    </thead>
-                </table> 
-                <br></br>      
-            </div>
-            <br></br>
+    
             </body>
         );
     }}
