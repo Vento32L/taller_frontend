@@ -1,6 +1,6 @@
+import { Component } from "react";
 import logo from "../images/Logo.jpg";
 import  user from "../images/Perfil.jpg";
-import { Component } from "react";
 
 class AppHeaderComponent extends Component{
     render(){
