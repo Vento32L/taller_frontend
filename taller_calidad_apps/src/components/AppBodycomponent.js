@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import imagen1 from "../images/imagen1.jpg";
 import imagen2 from "../images/imagen2.jpg";
-import video from "../images/video.mp4";
 
 class AppBodyComponent extends Component {
     render(){
