@@ -1,64 +1,99 @@
 import React, {Component} from "react";
+import imagen1 from "../images/imagen1.jpg";
+import imagen2 from "../images/imagen2.jpg";
+import video from "../images/video.mp4";
 
-
-class AppBodyComponent extends Component{
+class AppBodyComponent extends Component {
     render(){
         return(
             <body>
-                <div
-                style={{
-                    backgroundColor: "rgb(229, 236, 236)",
-                    height: "400px",
-                    width: "800px",
-                    position: "absolute",
-                    marginTop: "10%",
-                    marginLeft: "30%",
-                }}>
-                    <div
-                        class="title-container" 
-                        style={{
-                            borderStyle: "solid",
-                            borderWidth: "1dp",
-                            backgroundImage: "linear-gradient(rgb(6, 53, 83),rgb(93, 154, 196))"
+                <div 
+            style={{
+                backgroundColor: "#D8F6F9",
+                height: "110%",
+                width: "100%",
+                position: "absolute",   
+            }}>
+                <h1 class="title" 
+                    style={{
+                        fontfamily: 'Times New Roman, Times, serif',
+                        color: "#42585a",
+                        fontfamily: "calibri-bold",
+                        textAlign: "center"
+                    }}>
+                    GIRO 95<br></br><br></br>
+                </h1>
+            <div
+                style={{ 
+                        float: "left",
+                        backgroundColor: "#009790", 
+                        height: "80%",
+                        width: "40%",
+                        marginLeft: "3%",
                         }}>
-                            <h1
-                            class="title" 
-                            style={{
-                                size: "4cm",
-                                color: "rgb(68, 6, 6)",
-                                fontfamily: 'Times New Roman, Times, serif',
-                                textAlign: "center"
-                            }}>
-                            HOLA ESTAS EMI PÁGINA
-                            </h1>
-                    </div>
-                    <div id="8-12" style={{ display: "flex",
-                        flexDirection: "row"}}>
-                            <div
-                                class="container" 
-                                style={{
-                                position: "absolute",
-                                backgroundColor: "aqua",
-                                borderRadius: "1cm",
-                                borderLeft: "2cm",
-                                width: "100px",
-                                height: "100px",
-                                marginLeft: "1cm",
-                                borderWidth: "1cm",
-                            }}>
-                            </div>
-                            <div style={{ border: "250px solid  Silver" }}>
-                                <img src="https://wisynco.com/wp-content/uploads/2014/12/footer-background-011.jpg"
-                                    style={{ width: "150px", height: "150px" }}/>
 
-                            </div>
-                    </div>
-
+                <figure style={{marginLeft: "-8%", marginTop:"25%"}}>
+                    <img 
+                        src={imagen1}
+                        style={{
+                            float: "left",
+                            marginLeft: "15%",	
+                            width:"250px",
+                            height:"300px"                         
+                        }} 
+                    />  
+                    <figcaption>GIRO DANCE</figcaption>
+                </figure>
             </div>
+            <div
+            style={{ 
+                    float: "left",
+                    backgroundColor: "#4a6331", 
+                    height: "80%",
+                    width: "40%",
+                    marginLeft: "14%",
+                    }}>
+            <figure style={{marginLeft: "5%", marginTop:"25%"}}>
+                    <img 
+                        src={imagen2}
+                        style={{
+                            float: "left",
+                            marginLeft: "15%",	
+                            width:"280px",
+                            height:"300px" 
+                        }} 
+                        
+                    /> 
+                    <figcaption>TOP DANCE</figcaption> 
+                </figure>
+            </div>
+            <table style={{
+                    width: "600px",
+                    border: "1px solid #000",
+                    backgroundColor: "#fff",
+                    margin: "auto",
+                    marginTop: "60px"
+
+                }}>
+                    <thead>
+                        <tr>
+                            <th style={{
+                                height: "45px",
+                                borderBottom: "1px dashed #ccc",
+                                textAlign:"center"
+                                }}>
+                                 <a  href="https://www.lokosom.com.br/" 
+                                 target="enlace">Ver página similar</a>   
+                            </th>
+                        </tr>
+                    </thead>
+                </table> 
+                <br></br>      
+            </div>
+            <br></br>
             </body>
-            
         );
-    }
-}
+    }}
 
 export default AppBodyComponent;
+
