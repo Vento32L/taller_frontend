@@ -8,7 +8,7 @@ class AppHeaderComponent extends Component{
               <header 
                 id="hd" 
                 style={{
-                    backgroundColor: "#7bcbd4",
+                    backgroundColor: "#F4F6F7",
                     border: "1px solid white",
                     height: "100%",
                     width: "100%",
@@ -21,12 +21,20 @@ class AppHeaderComponent extends Component{
                             marginTop:"3%",
                             fontSize:"20px"
                         }}>
+                            <h1 class="title" 
+                            style={{
+                                fontfamily: 'Times New Roman, Times, serif',
+                                color: "#E933FF",
+                                fontfamily: "calibri-bold",
+                                textAlign: "left"
+                            }}> 
+                            <a href="CLASS">INICIO</a>&nbsp;
+                            <a href="M_PEDIDAS">AS MAIS PEDIDAS</a>&nbsp;
+                            <a href="G_NEW">GIRO NEWS</a>&nbsp;
+                            <a href="BAIXA_CDS" > BAIXAR CDS</a>&nbsp;
+                            <a href="TOP_CDS"> TOP CDS</a>
 
-                        <a href="CLASS">INICIO</a>&nbsp;
-                        <a href="M_PEDIDAS">AS MAIS PEDIDAS</a>&nbsp;
-                        <a href="G_NEW">GIRO NEWS</a>&nbsp;
-                        <a href="BAIXA_CDS" > BAIXAR CDS</a>&nbsp;
-                        <a href="TOP_CDS"> TOP CDS</a>
+                            </h1>
                     </ul>
 
                     <span class="icon" style={{marginLeft:"31%"}}><i class="fa fa-search"></i></span>

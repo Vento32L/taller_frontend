@@ -6,7 +6,7 @@ class AppFooterComponent extends Component{
             <footer
             style={{
                 height:"200px",
-                backgroundColor: "#7bcbd4",
+                backgroundColor: "#F0F3F4",
                 textAlign: "right",
                 fontSize: "15px",
             }}>

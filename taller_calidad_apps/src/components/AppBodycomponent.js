@@ -9,53 +9,70 @@ class AppBodyComponent extends Component {
             <body>
                 <div 
             style={{
-                backgroundColor: "#D8F6F9",
+                backgroundColor: "#F4F6F7",
                 height: "110%",
                 width: "100%",
-                position: "absolute",   
+                position: "absolute"  
             }}>
                 <h1 class="title" 
                     style={{
-                        fontfamily: 'Times New Roman, Times, serif',
-                        color: "#42585a",
-                        fontfamily: "calibri-bold",
+                        color: "#FF33C4",
                         textAlign: "center"
                     }}>
-                    GIRO 95<br></br><br></br>
+                    GIRO 95
                 </h1>
             <div
                 style={{ 
                         float: "left",
-                        backgroundColor: "#009790", 
+                        backgroundColor: "#CE33FF", 
                         height: "80%",
                         width: "40%",
                         marginLeft: "3%",
-                        }}>
+                        }}
+                >
+                <h1 class="title" 
+                    style={{
+                        fontfamily: 'Times New Roman, Times, serif',
+                        color: "#200229 ",
+                        fontfamily: "calibri-bold",
+                        textAlign: "center"
+                    }}>
+                    GIRO DANCE<br></br>
+                </h1>
 
                 <figure style={{marginLeft: "-8%", marginTop:"25%"}}>
                     <img 
                         src={imagen1}
                         style={{
+                            textAlign: "center",
                             float: "left",
                             marginLeft: "15%",	
                             width:"250px",
                             height:"300px"                         
                         }} 
                     />  
-                    <figcaption>GIRO DANCE</figcaption>
                 </figure>
             </div>
             <div
             style={{ 
                     float: "left",
-                    backgroundColor: "#4a6331", 
+                    backgroundColor: "#CE33FF", 
                     height: "80%",
                     width: "40%",
                     marginLeft: "14%",
                     }}>
+                    <h1 class="title" 
+                    style={{
+                        fontfamily: 'Times New Roman, Times, serif',
+                        color: "#200229 ",
+                        fontfamily: "calibri-bold",
+                        textAlign: "center"
+                    }}>
+                   TOP DANCE<br></br>
+                </h1>
             <figure style={{marginLeft: "5%", marginTop:"25%"}}>
-                    <img 
-                        src={imagen2}
+                <img 
+                    src={imagen2}
                         style={{
                             float: "left",
                             marginLeft: "15%",	
@@ -63,10 +80,11 @@ class AppBodyComponent extends Component {
                             height:"300px" 
                         }} 
                         
-                    /> 
-                    <figcaption>TOP DANCE</figcaption> 
+                /> 
+                    
                 </figure>
             </div>
+            <br></br>
             <table style={{
                     width: "600px",
                     border: "1px solid #000",
